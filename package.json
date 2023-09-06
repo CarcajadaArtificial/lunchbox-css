@@ -1,0 +1,25 @@
+{
+  "name": "lunchbox-css",
+  "version": "0.0.2",
+  "description": "CSS distribution for Lunchbox 🍱 using GarliCSS 🧄 and Sass Door 🚪.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarcajadaArtificial/lunchbox-css.git"
+  },
+  "keywords": [
+    "CSS",
+    "SCSS",
+    "Sass"
+  ],
+  "type": "module",
+  "author": "Oscar Alfonso Guerrero Nuñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarcajadaArtificial/lunchbox-css/issues"
+  },
+  "homepage": "https://github.com/CarcajadaArtificial/lunchbox-css#readme"
+}
