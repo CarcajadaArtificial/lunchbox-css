@@ -1,0 +1,58 @@
+@use '../../../lib/garlicss/grid.scss' as *;
+@use '../../../lib/garlicss/media-queries.scss' as *;
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+/// The $breakpoints variable is a Sass map containing the screen sizes for different devices.
+///
+/// @type {[key]: em}
+///
+/// @group media-queries
+///
+$breakpoints: (
+  sm: 0em,
+  md: 40em,
+  lg: 100em,
+);
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+/// This list contains the schematics of the design system grid. Every schematic will be a map that must comply the following structure.
+/// - `cols {unitless}`: This property determines how many repetitions are set in the style `grid-template-columns: repeat($cols, ...)`.
+/// - `gutter [length/percentage]`: This property determines the grid's `gap` style.
+/// - `colwidth [length/percentage]`: This property determines the value set in the style `grid-template-columns: repeat(cols, minmax(colwidth, 1fr))`, and changes to `minmax($colwidth, $colwidth)` when the property `fixedcol` is true.
+/// - `fixedcol [bool] {false}`: This property determines whether the grid's columns have a fixed width if true and flexible if false. When the value is true, it ignores the properties: `width` and `margin`, and assumes a reasonable and fixed `colwidth` length value.
+/// - `width [length/percentage/keyword] {min-content}` This property determines the grid's width, which normally should be set to "auto" for a responsive layout. The default value is forced when the property `fixedcol` is true.
+/// - `margin [length/percentage/auto] {auto}` This property determines the grid's horizontal margins value in the style `margin: 0 $margin`.
+/// - `mq [string]`: This property is used to set the grids styles to a particular media query.
+///
+/// @type list
+///
+/// @group grid
+///
+///
+$grid-schemas: (
+    cols: 6,
+    gutter: 0.8503100088rem,
+    colwidth: 0,
+    width: auto,
+    margin: 0.8503100088rem,
+    fixedcol: false,
+    mq: only-on($breakpoints, sm),
+  ),
+  (
+    cols: 12,
+    gutter: 2.1257750221%,
+    colwidth: 0,
+    width: auto,
+    margin: calc(23.13871222% - 134.488008342px),
+    fixedcol: false,
+    mq: only-on($breakpoints, md),
+  ),
+  (
+    cols: 12,
+    gutter: 1.5rem,
+    colwidth: 4.5rem,
+    fixedcol: true,
+    mq: only-on($breakpoints, lg),
+  );
+
+@include build-grid($grid-schemas, true);

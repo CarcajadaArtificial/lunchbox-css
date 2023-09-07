@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.8
+## v0.0.9
 
-- Added the typography feature to the `theme-newspaper` module.
+- Added the `grid` module to the `minimal` and `standard` presets
 
 ### v0.1.0
 

@@ -188,6 +188,34 @@ button {
   transform: scale(-1);
 }
 
+.grid {
+  display: grid;
+}
+@media screen and (max-width: 39.9375em) {
+  .grid {
+    gap: 0 0.8503100088rem;
+    width: auto;
+    margin: 0 0.8503100088rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 99.9375em) {
+  .grid {
+    gap: 0 2.1257750221%;
+    width: auto;
+    margin: 0 calc(23.13871222% - 134.488008342px);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+}
+@media screen and (min-width: 100em) {
+  .grid {
+    gap: 0 1.5rem;
+    width: min-content;
+    margin: 0 auto;
+    grid-template-columns: repeat(12, minmax(4.5rem, 4.5rem));
+  }
+}
+
 .comp-header {
   padding: var(--s-triple) 0;
 }
