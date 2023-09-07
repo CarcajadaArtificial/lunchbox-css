@@ -1,10 +1,5 @@
-@use '../../../lib/garlicss/media-queries.scss' as *;
-
-$breakpoints: (
-  sm: 0em,
-  md: 40em,
-  lg: 100em,
-);
+@use 'lib/garlicss/media-queries.scss' as *;
+@import 'src/_maps.scss';
 
 .comp-markdown {
   .keyword,

@@ -1,0 +1,11 @@
+@mixin select-none {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@mixin appearance-none {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}

@@ -1,11 +1,28 @@
-//    ___     _    _
-//   / __|_ _(_)__| |
-//  | (_ | '_| / _` |
-//   \___|_| |_\__,_|
-//
-// =====================================================================================================
-@use '../lib/garlicss.scss' as *;
-@use 'media-queries' as *;
+@use 'lib/garlicss/media-queries.scss' as *;
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+/// The $breakpoints variable is a Sass map containing the screen sizes for different devices.
+///
+/// @type {[key]: em}
+///
+/// @group media-queries
+///
+$breakpoints: (
+  sm: 0em,
+  md: 40em,
+  lg: 100em,
+);
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+/// The $query-map variable is a Sass map containing common media query strings.
+///
+/// @type {[key]: string}
+///
+/// @group media-queries
+///
+$query-map: (
+  only-sm: only-on($breakpoints, sm),
+);
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 /// This list contains the schematics of the design system grid. Every schematic will be a map that must comply the following structure.
@@ -166,4 +183,115 @@ $layout-schemas: (
       ),
     ),
   ),
+);
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+$classless-layout-schema: (
+  span: 12,
+  offset: 0,
+  variations: (
+    (
+      mq: only-on($breakpoints, sm),
+      span: 6,
+      offset: 0,
+    ),
+  ),
+);
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+/// This map contains the site's color palette. Every color must be named and assigned a unique color code. The schematic must have the following structure:
+/// - _key {string}: The key to the color palette must be a unique name for the respective color.
+/// - _value {color}: The color code for the individual tone in the palette.
+///
+/// @type map
+///
+/// @group color
+///
+$palette: (
+  nube: #dfd9ff,
+  vinca: #afbbfa,
+  cielo: #7aadf5,
+  azulejo: #1f84cc,
+  cobalto: #1262b3,
+  lapis: #000066,
+  marino: #030f33,
+  jade: #0f474d,
+  cedro: #00806a,
+  limon: #089969,
+  mota: #12b362,
+  musgo: #9eed77,
+  alien: #d0fa7d,
+  mantequilla: #f7ff99,
+  arena: #fff7cc,
+  tortilla: #ffea80,
+  flan: #fabb64,
+  ambar: #f59149,
+  ladrillo: #cc5f29,
+  arandano: #66050d,
+  manzana: #b31b34,
+  fresa: #e62e4d,
+  chicle: #f7577f,
+  bombon: #fc7ea8,
+  pastel: #fa96c8,
+  ajolote: #e9abf5,
+  princesa: #d0bbfa,
+  magia: #a37af5,
+  lavanda: #6246eb,
+  uva: #380899,
+  turquesa: #088199,
+  menta: #1fcccc,
+  hielo: #7ae0f5,
+  cajeta: #b36b24,
+  vino: #400020,
+  pulpo: #660546,
+  pitahaya: #b3128a,
+  borrador: #df76ba,
+  obsidiana: #0c0a0d,
+  chapopote: #241f26,
+  grafito: #3d3640,
+  hierro: #796c80,
+  acero: #aca1b3,
+  plata: #d5ced9,
+  papel: #eee6f2,
+  blanco: #ffffff,
+);
+
+$type-schema: (
+  small: -1,
+  paragraph: 0,
+  subheading: 2,
+  heading: 4,
+  title: 5,
+  display: 6,
+);
+
+$fonts: (
+  base: (
+    'Fira Code',
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Liberation Mono',
+    'Courier New',
+    monospace,
+  ),
+  heading: (
+    'Alice',
+    Baskerville,
+    Palatino,
+    Georgia,
+    'Times New Roman',
+    serif,
+  ),
+);
+
+$font-schema: (
+  small: 'base',
+  paragraph: 'base',
+  subheading: 'base',
+  heading: 'heading',
+  title: 'heading',
+  display: 'heading',
 );

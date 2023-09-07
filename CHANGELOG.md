@@ -1,8 +1,10 @@
 # Changelog
 
-## v0.0.13
+## v0.0.14
 
-- Added the `transitions` module to the `standard` preset.
+- Removed previous GarliCSS implementation.
+- Added --load-path to the distribution script.
+- Refactored all maps and mixins.
 
 ### v0.1.0
 
