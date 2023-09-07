@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.19
+## v0.0.20
 
-- Added `src/_lib.scss` that configures garlicss for the whole project.
+- Fixed the `classless` preset fonts.
 
 ### v0.1.0
 

@@ -3,7 +3,11 @@
 
 @import '../../modules/reset/index.scss';
 @import '../../modules/size/index.scss';
-@import '../../modules/theme-newspaper/index.scss';
+
+@include build-size-schema(create-size-schema($type-schema, 1rem, 'major-third'));
+@include build-fonts($fonts);
+@include build-dual-theme($palette, 'limon', 'grafito', 'papel', false);
+
 @import '../../modules/basics/index.scss';
 
 @include build-grid($grid-schemas);
