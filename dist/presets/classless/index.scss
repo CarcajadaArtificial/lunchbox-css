@@ -2,10 +2,9 @@
 @use 'lib/garlicss/media-queries.scss' as *;
 @import 'src/_maps.scss';
 
-// Reset
 @import '../../modules/reset/index.scss';
-
-// Classless
+@import '../../modules/size/index.scss';
+@import '../../modules/theme-newspaper/index.scss';
 @import '../../modules/basics/index.scss';
 
 @include build-grid($grid-schemas);

@@ -1,10 +1,9 @@
 # Changelog
 
-## v0.0.14
+## v0.0.15
 
-- Removed previous GarliCSS implementation.
-- Added --load-path to the distribution script.
-- Refactored all maps and mixins.
+- Added typography classes to the `theme-newspaper` module.
+- Added the `theme-newspaper` and `size` modules to the `classless` preset.
 
 ### v0.1.0
 
