@@ -1,6 +1,6 @@
 {
   "name": "lunchbox-css",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "CSS distribution for Lunchbox 🍱 using GarliCSS 🧄 and Sass Door 🚪.",
   "main": "index.js",
   "scripts": {

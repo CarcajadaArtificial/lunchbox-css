@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.17
+## v0.0.18
 
-- Fixed font class building.
+- Fixed grid and layout class names.
 
 ### v0.1.0
 
