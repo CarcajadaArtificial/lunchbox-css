@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.11
+## v0.0.12
 
-- Added the `markdown` module to the `standard` preset.
+- Added the `gradients` module to the `standard` preset.
 
 ### v0.1.0
 
@@ -27,7 +27,7 @@
   - [x] Layout: Left
   - [x] Lunchbox components
   - [ ] Transitions
-  - [ ] Gradients
+  - [x] Gradients
   - [x] Markdown
 - [ ] Add configurable variables for features.
   - [ ] Optional use of color palette.
