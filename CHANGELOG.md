@@ -1,14 +1,8 @@
 # Changelog
 
-## v0.0.3
+## v0.0.4
 
-### Distributed the `basics` and `reset` modules, and the `classless`` preset.
-  - `/dist/modules/*`
-  - `/dist/presets/*`
-
-### Added the distribute script
-  - `/distribute.sh`
-  - `/package.json`
+- Distributed the `theme-newspaper` module.
 
 ### v0.1.0
 
