@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.7
+## v0.0.8
 
-- Added the `twind` module to the `minimal` and `standard` presets
+- Added the `components` module to the `minimal` and `standard` presets
 
 ### v0.1.0
 
@@ -10,13 +10,14 @@
   - [x] Add the shell script that compiles scss modules.
   - [x] Add compressed versions of the compiled css.
   - [ ] Add a watch for any scss inside /dist/ and trigger dist script.
+  - [ ] Return to node_modules using the `--load-path` in scss.
 - [ ] Distributions
   - [x] Basics
   - [x] Reset
   - [x] Theme: Newspaper
   - [x] Size
   - [x] Twind
-  - [ ] Lunchbox components
+  - [x] Lunchbox components
   - [ ] Transitions
   - [ ] Gradients
   - [ ] Markdown
@@ -24,9 +25,9 @@
   - [ ] Optional use of color palette.
   - [ ] Optional use of sizes.
 - [ ] Add main presets for stylesheets.
-  - [x] Classless: Reset, Basics
-  - [ ] Minimal: Reset, Theme Newspaper, Size, Twind, Lunchbox components
-  - [ ] Standard: Reset, Theme Newspaper, Size, Twind, Lunchbox components, Transitions, Gradients, Markdown
+  - [x] Classless
+  - [x] Minimal
+  - [ ] Standard: Transitions, Gradients, Markdown
 
 ### v0.2.0
 
