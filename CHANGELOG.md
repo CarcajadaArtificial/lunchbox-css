@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.5
+## v0.0.6
 
-- Added the `theme-newspaper` module to the `minimal` and `standard` presets
+- Added the `size` module to the `minimal` and `standard` presets
 
 ### v0.1.0
 
@@ -14,7 +14,7 @@
   - [x] Basics
   - [x] Reset
   - [x] Theme: Newspaper
-  - [ ] Sizes
+  - [x] Size
   - [ ] Twind
   - [ ] Lunchbox components
   - [ ] Transitions
@@ -25,8 +25,8 @@
   - [ ] Optional use of sizes.
 - [ ] Add main presets for stylesheets.
   - [x] Classless: Reset, Basics
-  - [ ] Minimal: Reset, Theme Newspaper, Sizes, Twind, Lunchbox components
-  - [ ] Standard: Reset, Theme Newspaper, Sizes, Twind, Lunchbox components, Transitions, Gradients, Markdown
+  - [ ] Minimal: Reset, Theme Newspaper, Size, Twind, Lunchbox components
+  - [ ] Standard: Reset, Theme Newspaper, Size, Twind, Lunchbox components, Transitions, Gradients, Markdown
 
 ### v0.2.0
 

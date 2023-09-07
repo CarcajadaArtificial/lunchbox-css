@@ -32,6 +32,24 @@ button {
 }
 
 :root {
+  --s-eighth: 0.125rem;
+  --s-quarter: 0.25rem;
+  --s-three-eights: 0.375rem;
+  --s-third: 0.3333333333rem;
+  --s-half: 0.5rem;
+  --s-five-eights: 0.625rem;
+  --s-two-thirds: 0.6666666666rem;
+  --s-three-quarters: 0.75rem;
+  --s-seven-eights: 0.875rem;
+  --s-single: 1rem;
+  --s-one-and-half: 1.5rem;
+  --s-double: 2rem;
+  --s-triple: 3rem;
+  --s-quadruple: 4rem;
+  --s-fifteen: 15rem;
+}
+
+:root {
   --clr-personality: #089969;
   --clr-bg-page: #3d3640;
   --clr-bg-panel: #241f26;
