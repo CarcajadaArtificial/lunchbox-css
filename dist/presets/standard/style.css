@@ -31,4 +31,101 @@ button {
   border: none;
 }
 
+:root {
+  --clr-personality: #089969;
+  --clr-bg-page: #3d3640;
+  --clr-bg-panel: #241f26;
+  --clr-txt-base: #eee6f2;
+  --clr-txt-error: #fa96c8;
+  --clr-txt-personality: #9eed77;
+  --clr-bg-input: #1d7159;
+  --clr-bg-disabled: #8d8590;
+  --clr-bg-error: #41122c;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-personality: #089969;
+    --clr-bg-page: #eee6f2;
+    --clr-bg-panel: #d5ced9;
+    --clr-txt-base: #0c0a0d;
+    --clr-txt-error: #66050d;
+    --clr-txt-personality: #0f474d;
+    --clr-bg-input: #5fb69d;
+    --clr-bg-disabled: #847f86;
+    --clr-bg-error: #f7bdc6;
+  }
+}
+
+.clr-bg-page {
+  background-color: #3d3640;
+}
+@media (prefers-color-scheme: light) {
+  .clr-bg-page {
+    background-color: #eee6f2;
+  }
+}
+
+.clr-bg-panel {
+  background-color: #241f26;
+}
+@media (prefers-color-scheme: light) {
+  .clr-bg-panel {
+    background-color: #d5ced9;
+  }
+}
+
+.clr-txt-base {
+  color: #eee6f2;
+}
+@media (prefers-color-scheme: light) {
+  .clr-txt-base {
+    color: #0c0a0d;
+  }
+}
+
+.clr-txt-error {
+  color: #fa96c8;
+}
+@media (prefers-color-scheme: light) {
+  .clr-txt-error {
+    color: #66050d;
+  }
+}
+
+.clr-txt-personality {
+  color: #9eed77;
+}
+@media (prefers-color-scheme: light) {
+  .clr-txt-personality {
+    color: #0f474d;
+  }
+}
+
+.clr-bg-input {
+  background-color: #1d7159;
+}
+@media (prefers-color-scheme: light) {
+  .clr-bg-input {
+    background-color: #5fb69d;
+  }
+}
+
+.clr-bg-disabled {
+  background-color: #8d8590;
+}
+@media (prefers-color-scheme: light) {
+  .clr-bg-disabled {
+    background-color: #847f86;
+  }
+}
+
+.clr-bg-error {
+  background-color: #41122c;
+}
+@media (prefers-color-scheme: light) {
+  .clr-bg-error {
+    background-color: #f7bdc6;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

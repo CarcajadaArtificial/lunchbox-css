@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.4
+## v0.0.5
 
-- Distributed the `theme-newspaper` module.
+- Added the `theme-newspaper` module to the `minimal` and `standard` presets
 
 ### v0.1.0
 
@@ -13,7 +13,7 @@
 - [ ] Distributions
   - [x] Basics
   - [x] Reset
-  - [ ] Theme: Newspaper
+  - [x] Theme: Newspaper
   - [ ] Sizes
   - [ ] Twind
   - [ ] Lunchbox components
@@ -28,3 +28,7 @@
   - [ ] Minimal: Reset, Theme Newspaper, Sizes, Twind, Lunchbox components
   - [ ] Standard: Reset, Theme Newspaper, Sizes, Twind, Lunchbox components, Transitions, Gradients, Markdown
 
+### v0.2.0
+
+- [ ] Distributions
+  - [ ] Print
