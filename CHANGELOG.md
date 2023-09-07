@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.12
+## v0.0.13
 
-- Added the `gradients` module to the `standard` preset.
+- Added the `transitions` module to the `standard` preset.
 
 ### v0.1.0
 
@@ -11,7 +11,7 @@
   - [x] Add compressed versions of the compiled css.
   - [ ] Add a watch for any scss inside /dist/ and trigger dist script.
   - [ ] Return to node_modules using the `--load-path` in scss.
-- [ ] Distributions
+- [x] Distributions
   - [x] Basics
   - [x] Reset
   - [x] Theme: Newspaper
@@ -26,16 +26,16 @@
   - [x] Layout: Right
   - [x] Layout: Left
   - [x] Lunchbox components
-  - [ ] Transitions
+  - [x] Transitions
   - [x] Gradients
   - [x] Markdown
 - [ ] Add configurable variables for features.
   - [ ] Optional use of color palette.
   - [ ] Optional use of sizes.
-- [ ] Add main presets for stylesheets.
+- [x] Add main presets for stylesheets.
   - [x] Classless
   - [x] Minimal
-  - [ ] Standard: Transitions, Gradients, Markdown
+  - [x] Standard
 
 ### v0.2.0
 
