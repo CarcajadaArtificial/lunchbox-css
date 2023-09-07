@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.6
+## v0.0.7
 
-- Added the `size` module to the `minimal` and `standard` presets
+- Added the `twind` module to the `minimal` and `standard` presets
 
 ### v0.1.0
 
@@ -15,7 +15,7 @@
   - [x] Reset
   - [x] Theme: Newspaper
   - [x] Size
-  - [ ] Twind
+  - [x] Twind
   - [ ] Lunchbox components
   - [ ] Transitions
   - [ ] Gradients
