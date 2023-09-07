@@ -1,6 +1,5 @@
-@use 'lib/garlicss/color.scss' as *;
-@use 'lib/garlicss/size.scss' as *;
-@import 'src/_maps.scss';
+@use 'src/_lib.scss' as *;
+@use 'src/_maps.scss' as *;
 
 @include build-size-schema(create-size-schema($type-schema, 1rem, 'major-third'));
 @include build-fonts($fonts);

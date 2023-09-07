@@ -1,5 +1,5 @@
-@use 'lib/garlicss/media-queries.scss' as *;
-@import 'src/_maps.scss';
+@use 'src/_lib.scss' as *;
+@use 'src/_maps.scss' as *;
 
 .comp-markdown {
   .keyword,

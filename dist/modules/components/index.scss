@@ -1,6 +1,6 @@
-@use 'lib/garlicss/media-queries.scss' as *;
-@import 'src/_mixins.scss';
-@import 'src/_maps.scss';
+@use 'src/_lib.scss' as *;
+@use 'src/_mixins.scss' as *;
+@use 'src/_maps.scss' as *;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Header

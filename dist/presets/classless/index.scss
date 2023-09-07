@@ -1,6 +1,5 @@
-@use 'lib/garlicss/grid.scss' as *;
-@use 'lib/garlicss/media-queries.scss' as *;
-@import 'src/_maps.scss';
+@use 'src/_lib.scss' as *;
+@use 'src/_maps.scss' as *;
 
 @import '../../modules/reset/index.scss';
 @import '../../modules/size/index.scss';

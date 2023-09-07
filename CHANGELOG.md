@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.18
+## v0.0.19
 
-- Fixed grid and layout class names.
+- Added `src/_lib.scss` that configures garlicss for the whole project.
 
 ### v0.1.0
 

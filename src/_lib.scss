@@ -1,0 +1,8 @@
+@forward 'lib/garlicss/basics.scss';
+@forward 'lib/garlicss/color.scss';
+@forward 'lib/garlicss/grid.scss' with (
+  $class-name-grid: 'comp-grid',
+  $class-name-layout: 'comp-layout'
+);
+@forward 'lib/garlicss/media-queries.scss';
+@forward 'lib/garlicss/size.scss';

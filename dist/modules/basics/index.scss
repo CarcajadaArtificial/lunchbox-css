@@ -1,4 +1,4 @@
-@import 'lib/garlicss/basics.scss';
+@use 'src/_lib.scss' as *;
 
 @include build-semantic-elements;
 @include build-type-elements;
