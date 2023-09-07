@@ -1,9 +1,8 @@
 # Changelog
 
-## v0.0.10
+## v0.0.11
 
-- Added the `layout` module to the `minimal` and `standard` presets.
-- Added classless layout functionality to the `classless` preset.
+- Added the `markdown` module to the `standard` preset.
 
 ### v0.1.0
 
@@ -21,15 +20,15 @@
   - [x] Grid
   - [x] Layout: Full
   - [x] Layout: Center
-  - [ ] Layout: Focus
+  - [x] Layout: Focus
   - [x] Layout: Halves
-  - [ ] Layout: Thirds
+  - [x] Layout: Thirds
   - [x] Layout: Right
-  - [ ] Layout: Left
+  - [x] Layout: Left
   - [x] Lunchbox components
   - [ ] Transitions
   - [ ] Gradients
-  - [ ] Markdown
+  - [x] Markdown
 - [ ] Add configurable variables for features.
   - [ ] Optional use of color palette.
   - [ ] Optional use of sizes.
