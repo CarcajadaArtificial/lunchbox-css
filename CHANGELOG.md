@@ -1,8 +1,9 @@
 # Changelog
 
-## v0.0.9
+## v0.0.10
 
-- Added the `grid` module to the `minimal` and `standard` presets
+- Added the `layout` module to the `minimal` and `standard` presets.
+- Added classless layout functionality to the `classless` preset.
 
 ### v0.1.0
 
@@ -17,6 +18,14 @@
   - [x] Theme: Newspaper
   - [x] Size
   - [x] Twind
+  - [x] Grid
+  - [x] Layout: Full
+  - [x] Layout: Center
+  - [ ] Layout: Focus
+  - [x] Layout: Halves
+  - [ ] Layout: Thirds
+  - [x] Layout: Right
+  - [ ] Layout: Left
   - [x] Lunchbox components
   - [ ] Transitions
   - [ ] Gradients

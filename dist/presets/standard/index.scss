@@ -1,9 +1,15 @@
+// Reset
 @import '../../modules/reset/index.scss';
+
+// Minimal
 @import '../../modules/size/index.scss';
 @import '../../modules/theme-newspaper/index.scss';
 @import '../../modules/twind/index.scss';
 @import '../../modules/grid/index.scss';
+@import '../../modules/layouts/index.scss';
 @import '../../modules/components/index.scss';
+
+// Standard
 // @import '../../modules/transitions/index.scss';
 // @import '../../modules/grandients/index.scss';
 // @import '../../modules/markdown/index.scss';
