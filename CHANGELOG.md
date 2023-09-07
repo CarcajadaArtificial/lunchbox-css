@@ -1,9 +1,8 @@
 # Changelog
 
-## v0.0.15
+## v0.0.16
 
-- Added typography classes to the `theme-newspaper` module.
-- Added the `theme-newspaper` and `size` modules to the `classless` preset.
+- Fixed font class building.
 
 ### v0.1.0
 

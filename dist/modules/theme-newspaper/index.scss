@@ -4,5 +4,5 @@
 
 @include build-size-schema(create-size-schema($type-schema, 1rem, 'major-third'));
 @include build-fonts($fonts);
-@include build-typography-classes($type-schema);
 @include build-dual-theme($palette, 'limon', 'grafito', 'papel', true);
+@include build-typography-classes($font-schema);
