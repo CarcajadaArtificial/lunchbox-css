@@ -51,6 +51,20 @@ button {
 }
 
 :root {
+  --txt-small: 0.64rem / 1.5rem;
+  --txt-paragraph: 1rem / 1.5rem;
+  --txt-subheading: 1.5625rem / 3rem;
+  --txt-heading: 2.44140625rem / 3rem;
+  --txt-title: 3.0517578125rem / 4.5rem;
+  --txt-display: 3.8146972656rem / 4.5rem;
+}
+
+:root {
+  --font-base: Fira Code, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  --font-heading: Alice, Baskerville, Palatino, Georgia, Times New Roman, serif;
+}
+
+:root {
   --clr-personality: #089969;
   --clr-bg-page: #3d3640;
   --clr-bg-panel: #241f26;

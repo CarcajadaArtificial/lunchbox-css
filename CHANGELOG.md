@@ -2,7 +2,7 @@
 
 ## v0.0.8
 
-- Added the `components` module to the `minimal` and `standard` presets
+- Added the typography feature to the `theme-newspaper` module.
 
 ### v0.1.0
 

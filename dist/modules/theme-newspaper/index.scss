@@ -1,4 +1,5 @@
 @use '../../../lib/garlicss/color.scss' as *;
+@use '../../../lib/garlicss/size.scss' as *;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 /// This map contains the site's color palette. Every color must be named and assigned a unique color code. The schematic must have the following structure:
@@ -58,4 +59,46 @@ $palette: (
   blanco: #ffffff,
 );
 
+$type-schema: (
+  small: -1,
+  paragraph: 0,
+  subheading: 2,
+  heading: 4,
+  title: 5,
+  display: 6,
+);
+
+$fonts: (
+  base: (
+    'Fira Code',
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Liberation Mono',
+    'Courier New',
+    monospace,
+  ),
+  heading: (
+    'Alice',
+    Baskerville,
+    Palatino,
+    Georgia,
+    'Times New Roman',
+    serif,
+  ),
+);
+
+$font-schema: (
+  small: 'base',
+  paragraph: 'base',
+  subheading: 'base',
+  heading: 'heading',
+  title: 'heading',
+  display: 'heading',
+);
+
+@include build-size-schema(create-size-schema($type-schema, 1rem, 'major-third'));
+@include build-fonts($fonts);
 @include build-dual-theme($palette, 'limon', 'grafito', 'papel', true);
