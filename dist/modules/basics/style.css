@@ -43,6 +43,7 @@ h5,
 h6 {
   color: var(--clr-txt-personality);
   margin-bottom: 1.5rem;
+  font-weight: 600;
 }
 
 a {
@@ -58,8 +59,7 @@ code {
 }
 
 p {
-  font-size: var(--fs0);
-  line-height: var(--lh0);
+  font: var(--txt-paragraph) var(--font-base);
 }
 p + h2,
 p + h3,
@@ -73,36 +73,27 @@ p + p {
 }
 
 h6 {
-  font-size: var(--fs1);
-  line-height: var(--lh1);
+  font: var(--txt-small) var(--font-base);
 }
 
 h5 {
-  font-size: var(--fs2);
-  line-height: var(--lh2);
+  font: var(--txt-paragraph) var(--font-base);
 }
 
 h4 {
-  font-size: var(--fs3);
-  line-height: var(--lh3);
+  font: var(--txt-subheading) var(--font-base);
 }
 
 h3 {
-  font-size: var(--fs4);
-  line-height: var(--lh4);
-  font-weight: 600;
+  font: var(--txt-heading) var(--font-heading);
 }
 
 h2 {
-  font-size: var(--fs5);
-  line-height: var(--lh5);
-  font-weight: 600;
+  font: var(--txt-title) var(--font-heading);
 }
 
 h1 {
-  font-size: var(--fs6);
-  line-height: var(--lh6);
-  font-weight: 600;
+  font: var(--txt-display) var(--font-heading);
 }
 
 input,
