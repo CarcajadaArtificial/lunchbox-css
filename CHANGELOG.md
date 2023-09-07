@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.0.16
+## v0.0.17
 
 - Fixed font class building.
 
