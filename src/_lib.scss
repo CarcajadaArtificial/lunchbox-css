@@ -1,8 +1,8 @@
-@forward 'lib/garlicss/basics.scss';
-@forward 'lib/garlicss/color.scss';
-@forward 'lib/garlicss/grid.scss' with (
+@forward 'node_modules/garlicss/src/basics.scss';
+@forward 'node_modules/garlicss/src/color.scss';
+@forward 'node_modules/garlicss/src/grid.scss' with (
   $class-name-grid: 'comp-grid',
   $class-name-layout: 'comp-layout'
 );
-@forward 'lib/garlicss/media-queries.scss';
-@forward 'lib/garlicss/size.scss';
+@forward 'node_modules/garlicss/src/media-queries.scss';
+@forward 'node_modules/garlicss/src/size.scss';

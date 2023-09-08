@@ -1,8 +1,11 @@
 # Changelog
 
-## v0.0.22
+## v0.0.23
 
-- Added the `npm run watch` script.
+- Included the `garlicss` and `sass-door` dev dependencies.
+- Removed `index.js`
+- Updated `.gitignore`
+- Updated the module's `.css.map`'s
 
 ### v0.1.0
 
