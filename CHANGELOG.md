@@ -1,15 +1,15 @@
 # Changelog
 
-## v0.0.21
+## v0.0.22
 
-- Fixed the `classless` preset fonts.
+- Added the `npm run watch` script.
 
 ### v0.1.0
 
 - [ ] Distribute different CSS files for different features.
   - [x] Add the shell script that compiles scss modules.
   - [x] Add compressed versions of the compiled css.
-  - [ ] Add a watch for any scss inside /dist/ and trigger dist script.
+  - [x] Add a watch for any scss inside /dist/ and trigger dist script.
   - [ ] Return to node_modules using the `--load-path` in scss.
 - [x] Distributions
   - [x] Basics
