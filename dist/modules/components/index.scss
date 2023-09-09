@@ -255,6 +255,8 @@
     position: relative;
     right: var(--s-half);
     bottom: 1px;
+    box-sizing: border-box;
+    width: calc(100% + var(--s-half));
 
     &_label {
       flex-direction: column;

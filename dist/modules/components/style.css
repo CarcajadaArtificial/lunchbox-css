@@ -216,6 +216,8 @@
   position: relative;
   right: var(--s-half);
   bottom: 1px;
+  box-sizing: border-box;
+  width: calc(100% + var(--s-half));
 }
 .comp-input_box .comp-input_label,
 .comp-input_box .comp-textarea_label,

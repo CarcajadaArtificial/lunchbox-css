@@ -1,6 +1,11 @@
 @use 'src/_lib.scss' as *;
 @use 'src/_maps.scss' as *;
 
+body {
+  font: var(--font-base);
+  background-color: var(--clr-bg-page);
+}
+
 @include build-size-schema(create-size-schema($type-schema, 1rem, 'major-third'));
 @include build-fonts($fonts);
 @include build-dual-theme($palette, 'limon', 'grafito', 'papel', true);

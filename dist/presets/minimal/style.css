@@ -50,6 +50,11 @@ button {
   --s-fifteen: 15rem;
 }
 
+body {
+  font: var(--font-base);
+  background-color: var(--clr-bg-page);
+}
+
 :root {
   --txt-small: 0.64rem / 1.5rem;
   --txt-paragraph: 1rem / 1.5rem;
@@ -540,6 +545,8 @@ button {
   position: relative;
   right: var(--s-half);
   bottom: 1px;
+  box-sizing: border-box;
+  width: calc(100% + var(--s-half));
 }
 .comp-input_box .comp-input_label,
 .comp-input_box .comp-textarea_label,
