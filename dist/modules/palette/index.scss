@@ -1,0 +1,9 @@
+@use 'src/_lib.scss' as *;
+@use 'src/_maps.scss' as *;
+
+:root {
+  @include build-color-variables($palette);
+}
+
+@include build-color-backgrounds($palette, true);
+@include build-color-text($palette, true);

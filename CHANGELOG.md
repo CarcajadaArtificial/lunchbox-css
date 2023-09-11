@@ -1,9 +1,8 @@
 # Changelog
 
-## v0.0.25
+## v0.0.26
 
-- Fixed the issue where the `reset` module didn't apply standard styles to the body tag.
-- Fixed `comp-input` missing styles.
+- Added the `palette` module.
 
 ### v0.1.0
 
