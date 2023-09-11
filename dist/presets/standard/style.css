@@ -32,6 +32,10 @@ button {
   border: none;
 }
 
+body {
+  background-color: var(--clr-bg-panel);
+}
+
 :root {
   --s-eighth: 0.125rem;
   --s-quarter: 0.25rem;
@@ -48,11 +52,6 @@ button {
   --s-triple: 3rem;
   --s-quadruple: 4rem;
   --s-fifteen: 15rem;
-}
-
-body {
-  font: var(--font-base);
-  background-color: var(--clr-bg-page);
 }
 
 :root {
@@ -519,6 +518,12 @@ body {
 .comp-input_box .comp-select:disabled {
   opacity: 1;
 }
+.comp-input_box input[type=color] {
+  height: calc(var(--s-single) + var(--s-five-eights));
+}
+.comp-input_box .comp-text {
+  padding-right: var(--s-half);
+}
 
 .comp-input_date .comp-input {
   padding: 0 var(--s-half);
@@ -527,7 +532,7 @@ body {
   -webkit-text-fill-color: var(--clr-txt-base);
 }
 .comp-input_date .comp-input::-webkit-datetime-edit {
-  font: var(--txt-paragraph);
+  font: var(--txt-paragraph) var(--font-base);
   padding: 0;
   height: 21px;
 }
@@ -547,6 +552,7 @@ body {
   bottom: 1px;
   box-sizing: border-box;
   width: calc(100% + var(--s-half));
+  font: var(--txt-paragraph) var(--font-base);
 }
 .comp-input_box .comp-input_label,
 .comp-input_box .comp-textarea_label,

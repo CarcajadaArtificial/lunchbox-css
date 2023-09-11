@@ -1,9 +1,9 @@
 # Changelog
 
-## v0.0.24
+## v0.0.25
 
-- Fixed the issue where the `<Input/>` component's maxWidth didn't compensate for the forced left align.
-- Fixed the issue where the `theme-newspaper` module didn't apply standard styles to the body tag.
+- Fixed the issue where the `reset` module didn't apply standard styles to the body tag.
+- Fixed `comp-input` missing styles.
 
 ### v0.1.0
 

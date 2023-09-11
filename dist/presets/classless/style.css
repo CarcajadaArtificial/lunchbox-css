@@ -31,6 +31,10 @@ button {
   border: none;
 }
 
+body {
+  background-color: var(--clr-bg-panel);
+}
+
 :root {
   --s-eighth: 0.125rem;
   --s-quarter: 0.25rem;

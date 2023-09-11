@@ -1,8 +1,3 @@
-body {
-  font: var(--font-base);
-  background-color: var(--clr-bg-page);
-}
-
 :root {
   --txt-small: 0.64rem / 1.5rem;
   --txt-paragraph: 1rem / 1.5rem;

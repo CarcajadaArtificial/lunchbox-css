@@ -228,6 +228,16 @@
       opacity: 1;
     }
   }
+
+  /// @todo This must be moved to the `<Input/>` component's `setup.ts` inside the Lunchbox repo.
+  input[type='color'] {
+    height: calc(var(--s-single) + var(--s-five-eights));
+  }
+
+  /// @todo This must be moved to the `<Input/>` component's `setup.ts` inside the Lunchbox repo.
+  .comp-text {
+    padding-right: var(--s-half);
+  }
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - -
@@ -238,7 +248,7 @@
   -webkit-text-fill-color: var(--clr-txt-base);
 
   &::-webkit-datetime-edit {
-    font: var(--txt-paragraph);
+    font: var(--txt-paragraph) var(--font-base);
     padding: 0;
     height: 21px;
   }
@@ -257,6 +267,7 @@
     bottom: 1px;
     box-sizing: border-box;
     width: calc(100% + var(--s-half));
+    font: var(--txt-paragraph) var(--font-base);
 
     &_label {
       flex-direction: column;
