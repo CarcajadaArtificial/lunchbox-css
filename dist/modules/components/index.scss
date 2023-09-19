@@ -183,6 +183,7 @@
 .comp-textarea,
 .comp-select {
   border-radius: var(--s-quarter);
+  border: 0;
 
   &_container {
     max-width: 24rem;

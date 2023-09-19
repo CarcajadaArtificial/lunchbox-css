@@ -112,7 +112,7 @@ textarea {
   display: inline-block;
   width: calc(100% - var(--s-two-thirds));
   max-width: var(--s-fifteen);
-  background-color: var(--clr-bg-input);
+  background-color: var(--clr-bg-personality);
   border: none;
   padding: var(--s-quarter) var(--s-third);
   border-radius: var(--s-eighth);
@@ -175,7 +175,7 @@ input[type='submit'],
 button {
   max-width: max-content;
   cursor: pointer;
-  background-color: var(--clr-bg-input);
+  background-color: var(--clr-bg-personality);
   padding: var(--s-quarter) var(--s-five-eights);
   border-radius: var(--s-eighth);
   margin: var(--s-third) 0 var(--s-two-thirds) 0;

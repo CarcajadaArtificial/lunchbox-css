@@ -108,12 +108,12 @@ $layout-schemas: (
   ),
   focus: (
     span: 8,
-    offset: 3,
+    offset: 2,
     variations: (
       (
         mq: only-on($breakpoints, sm),
-        span: 4,
-        offset: 2,
+        span: 6,
+        offset: 0,
       ),
     ),
   ),
@@ -123,7 +123,7 @@ $layout-schemas: (
     variations: (
       (
         mq: only-on($breakpoints, sm),
-        span: 3,
+        span: 6,
         offset: 0,
       ),
     ),
@@ -134,7 +134,7 @@ $layout-schemas: (
     variations: (
       (
         mq: only-on($breakpoints, sm),
-        span: 2,
+        span: 6,
         offset: 0,
       ),
     ),
@@ -150,13 +150,7 @@ $layout-schemas: (
       ),
       (
         mq: only-on($breakpoints, sm),
-        span: 1,
-        offset: 0,
-      ),
-      (
-        pseudo: ':nth-child(even)',
-        mq: only-on($breakpoints, sm),
-        span: 5,
+        span: 6,
         offset: 0,
       ),
     ),
@@ -172,13 +166,7 @@ $layout-schemas: (
       ),
       (
         mq: only-on($breakpoints, sm),
-        span: 1,
-        offset: 0,
-      ),
-      (
-        pseudo: ':nth-child(odd)',
-        mq: only-on($breakpoints, sm),
-        span: 5,
+        span: 6,
         offset: 0,
       ),
     ),

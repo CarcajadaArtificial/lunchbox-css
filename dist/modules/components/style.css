@@ -140,6 +140,7 @@
 .comp-textarea,
 .comp-select {
   border-radius: var(--s-quarter);
+  border: 0;
 }
 .comp-input_container,
 .comp-textarea_container,

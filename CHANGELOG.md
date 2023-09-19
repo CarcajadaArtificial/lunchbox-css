@@ -1,8 +1,10 @@
 # Changelog
 
-## v0.0.26
+## v0.0.27
 
-- Added the `palette` module.
+- Fixed unresponsive layout maps.
+- Removed the `build-dual-theme()` function in favor of generated themes.
+- Minor component and color updates.
 
 ### v0.1.0
 
@@ -36,6 +38,10 @@
   - [x] Classless
   - [x] Minimal
   - [x] Standard
+- [ ] Fixes
+  - [ ] Remove color theme generation in favor of theme generator site.
+  - [ ] Fix Layout responsivity
+  - [ ] Update components module to new color schema.
 
 ### v0.2.0
 
