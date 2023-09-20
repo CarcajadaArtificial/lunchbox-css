@@ -82,8 +82,8 @@ body {
   --clr-bg-panel-35: #241f2659;
   --clr-bg-panel-15: #241f2626;
   --clr-bg-personality-60: #08996999;
-  --clr-bg-personality-45: #0899694d;
-  --clr-bg-personality-30: #08996973;
+  --clr-bg-personality-45: #08996973;
+  --clr-bg-personality-30: #0899694d;
 }
 
 @media (prefers-color-scheme: light) {
@@ -100,8 +100,8 @@ body {
     --clr-bg-panel-35: #ffffff59;
     --clr-bg-panel-15: #ffffff26;
     --clr-bg-personality-60: #08996999;
-    --clr-bg-personality-45: #0899694d;
-    --clr-bg-personality-30: #08996973;
+    --clr-bg-personality-45: #08996973;
+    --clr-bg-personality-30: #0899694d;
   }
 }
 .clr-bg-page {

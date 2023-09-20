@@ -1,10 +1,8 @@
 # Changelog
 
-## v0.0.28
+## v0.0.29
 
-- Updated input component backgrounds.
-- Removed input transitions, will be added later as utility classes.
-- Updated theme color variables.
+- Minor theme fix
 
 ### v0.1.0
 
