@@ -141,6 +141,35 @@
 .comp-select {
   border-radius: var(--s-quarter);
   border: 0;
+  outline: 0;
+  background-color: var(--clr-bg-personality);
+}
+.comp-input:hover, .comp-input:focus, .comp-input:focus-visible, .comp-input:focus-within,
+.comp-textarea:hover,
+.comp-textarea:focus,
+.comp-textarea:focus-visible,
+.comp-textarea:focus-within,
+.comp-select:hover,
+.comp-select:focus,
+.comp-select:focus-visible,
+.comp-select:focus-within {
+  background-color: var(--clr-bg-personality-30);
+}
+.comp-input-bg_error,
+.comp-textarea-bg_error,
+.comp-select-bg_error {
+  background-color: var(--clr-bg-error);
+}
+.comp-input-bg_error:hover, .comp-input-bg_error:focus, .comp-input-bg_error:focus-visible, .comp-input-bg_error:focus-within,
+.comp-textarea-bg_error:hover,
+.comp-textarea-bg_error:focus,
+.comp-textarea-bg_error:focus-visible,
+.comp-textarea-bg_error:focus-within,
+.comp-select-bg_error:hover,
+.comp-select-bg_error:focus,
+.comp-select-bg_error:focus-visible,
+.comp-select-bg_error:focus-within {
+  background-color: var(--clr-bg-error-30);
 }
 .comp-input_container,
 .comp-textarea_container,

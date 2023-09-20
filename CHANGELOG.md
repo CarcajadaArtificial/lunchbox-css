@@ -1,10 +1,10 @@
 # Changelog
 
-## v0.0.27
+## v0.0.28
 
-- Fixed unresponsive layout maps.
-- Removed the `build-dual-theme()` function in favor of generated themes.
-- Minor component and color updates.
+- Updated input component backgrounds.
+- Removed input transitions, will be added later as utility classes.
+- Updated theme color variables.
 
 ### v0.1.0
 
