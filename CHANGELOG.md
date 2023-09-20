@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.29
+## v0.0.30
 
-- Minor theme fix
+- Updated the button component.
 
 ### v0.1.0
 

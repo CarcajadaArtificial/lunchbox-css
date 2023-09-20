@@ -21,7 +21,7 @@
   --clr-bg-error: #573c4d;
   --clr-txt-personality: #7dc0af;
   --clr-bg-personality: #344747;
-  --clr-bg-error-30: #fa96c84d;
+  --clr-bg-error-50: #fa96c880;
   --clr-bg-panel-50: #241f2680;
   --clr-bg-panel-35: #241f2659;
   --clr-bg-panel-15: #241f2626;
@@ -39,7 +39,7 @@
     --clr-bg-error: #dbc4c5;
     --clr-txt-personality: #2b584e;
     --clr-bg-personality: #c8d9db;
-    --clr-bg-error-30: #66050d4d;
+    --clr-bg-error-50: #66050d80;
     --clr-bg-panel-50: #ffffff80;
     --clr-bg-panel-35: #ffffff59;
     --clr-bg-panel-15: #ffffff26;
@@ -76,8 +76,8 @@
   background-color: var(--clr-bg-personality);
 }
 
-.clr-bg-error-30 {
-  background-color: var(--clr-bg-error-30);
+.clr-bg-error-50 {
+  background-color: var(--clr-bg-error-50);
 }
 
 .clr-bg-panel-50 {

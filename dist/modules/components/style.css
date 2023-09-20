@@ -101,15 +101,6 @@
   margin: var(--s-one-and-half) 0;
 }
 
-.comp-button {
-  padding: var(--s-quarter) var(--s-five-eights);
-  margin: var(--s-third) 0 var(--s-two-thirds) 0;
-  max-width: max-content;
-  cursor: pointer;
-  border-radius: var(--s-eighth);
-  margin-right: var(--s-eighth);
-}
-
 .comp-button_panel,
 .comp-panel .comp-button_invisible {
   background-color: var(--clr-bg-panel);

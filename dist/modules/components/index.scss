@@ -137,20 +137,14 @@
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Button
-.comp-button {
-  padding: var(--s-quarter) var(--s-five-eights);
-  margin: var(--s-third) 0 var(--s-two-thirds) 0;
-  max-width: max-content;
-  cursor: pointer;
-  border-radius: var(--s-eighth);
-  margin-right: var(--s-eighth);
-}
-
+/// @todo Change to css-in-js
+/// @deprecated
 .comp-button_panel,
 .comp-panel .comp-button_invisible {
   background-color: var(--clr-bg-panel);
 }
-
+/// @todo Change to css-in-js
+/// @deprecated
 .comp-panel .comp-button_panel,
 .comp-button_invisible {
   background-color: var(--clr-bg-page);
