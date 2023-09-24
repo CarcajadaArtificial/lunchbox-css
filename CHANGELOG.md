@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.30
+## v0.0.31
 
-- Updated the button component.
+- Migrated the reset, size, theme-newspaper, components, and transitions modules to css-in-js in Lunchbox.
 
 ### v0.1.0
 
