@@ -1,7 +1,0 @@
-@use 'src/_lib.scss' as *;
-
-@include build-reset;
-
-body {
-  background-color: var(--clr-bg-panel);
-}
