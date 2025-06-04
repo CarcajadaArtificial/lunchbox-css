@@ -1,21 +1,17 @@
 {
   "name": "lunchbox-css",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "CSS distribution for Lunchbox 🍱.",
   "main": "index.css",
   "files": [
-    "index.css"
+    "index.css",
+    "styles/*.css"
   ],
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CarcajadaArtificial/lunchbox-css.git"
   },
-  "keywords": [
-    "CSS",
-    "SCSS",
-    "Sass"
-  ],
   "type": "module",
   "author": "Oscar Alfonso Guerrero Nuñez",
   "license": "MIT",

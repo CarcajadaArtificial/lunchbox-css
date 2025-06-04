@@ -2,6 +2,10 @@
 
 ## Version History
 
+### v0.1.3
+
+- Added modular style modules in `./styles/keynav.css`, `./styles/noise.css`.
+
 ### v0.1.2
 
 - Updated version.
