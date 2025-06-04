@@ -2,6 +2,10 @@
 
 ## Version History
 
+### v0.1.2
+
+- Updated version.
+
 ### v0.1.1
 
 - Removed noise effect from Mozilla browsers.

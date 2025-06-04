@@ -1,6 +1,6 @@
 {
   "name": "lunchbox-css",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "CSS distribution for Lunchbox 🍱.",
   "main": "index.css",
   "files": [
