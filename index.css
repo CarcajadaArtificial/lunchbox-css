@@ -114,6 +114,10 @@
       margin-top: var(--spacing-2-1);
       scroll-margin-top: var(--spacing-3-1);
     }
+
+    pre {
+      white-space: pre-wrap;
+    }
   }
 
   .layout {

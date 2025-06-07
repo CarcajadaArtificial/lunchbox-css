@@ -2,6 +2,11 @@
 
 ## Version History
 
+### v0.1.4
+
+- Added a fix for a scenario where `<pre>` elements would make the rest of the
+  content overflow.
+
 ### v0.1.3
 
 - Added modular style modules in `./styles/keynav.css`, `./styles/noise.css`.
