@@ -2,6 +2,11 @@
 
 ## Version History
 
+### v0.1.5
+
+- Added a fix for focusing on already inverted (`filter: invert(1);`) elements.
+- Added `bg-dotted` and `--gradient-dotted` to the main styles.
+
 ### v0.1.4
 
 - Added a fix for a scenario where `<pre>` elements would make the rest of the

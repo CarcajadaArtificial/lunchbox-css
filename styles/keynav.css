@@ -1,17 +1,3 @@
-:root {
-  --gradient-dotted: repeating-conic-gradient(
-      var(--color-base-200) 0% 25%,
-      var(--color-base-100) 0% 100%
-    )
-    2px 1px / 4px 4px;
-}
-
-@layer utilities {
-  .bg-dotted {
-    background: var(--gradient-dotted);
-  }
-}
-
 :focus {
   background: var(--gradient-dotted);
   animation: flicker 50ms 2;
@@ -34,6 +20,11 @@
   100% {
     opacity: 1;
   }
+}
+
+.dark\:invert:focus,
+.invert:focus {
+  filter: invert(0);
 }
 
 .shake:focus {

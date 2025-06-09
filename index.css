@@ -84,6 +84,14 @@
   --color-error-content: #241f26;
 }
 
+:root {
+  --gradient-dotted: repeating-conic-gradient(
+      var(--color-base-200) 0% 25%,
+      var(--color-base-100) 0% 100%
+    )
+    2px 1px / 4px 4px;
+}
+
 @layer components {
   .prose {
     max-width: 75ch;
@@ -123,17 +131,23 @@
   .layout {
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    margin-inline: var(--spacing-1-2);
+    padding-inline: var(--spacing-1-2);
     gap: var(--spacing-1-2);
 
     @media (min-width: 40em) {
-      margin-inline: var(--spacing-1-1);
+      padding-inline: var(--spacing-1-1);
       gap: var(--spacing-1-1);
     }
 
     @media (min-width: 80em) {
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      margin-inline: 20%;
+      padding-inline: 20%;
     }
+  }
+}
+
+@layer utilities {
+  .bg-dotted {
+    background: var(--gradient-dotted);
   }
 }
