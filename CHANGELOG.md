@@ -2,6 +2,10 @@
 
 ## Version History
 
+### v0.1.6
+
+- Updated version.
+
 ### v0.1.5
 
 - Added a fix for focusing on already inverted (`filter: invert(1);`) elements.
