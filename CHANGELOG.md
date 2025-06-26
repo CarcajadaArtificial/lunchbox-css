@@ -2,6 +2,10 @@
 
 ## Version History
 
+### v0.1.7
+
+- Added exclusivity of the `keynav` focus styles to elements with `tabindex=0`.
+
 ### v0.1.6
 
 - Updated version.

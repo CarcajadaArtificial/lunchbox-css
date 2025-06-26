@@ -1,4 +1,4 @@
-:focus {
+[tabindex="0"]:focus {
   background: var(--gradient-dotted);
   animation: flicker 50ms 2;
   filter: invert();
@@ -7,7 +7,7 @@
   border-color: var(--color-base-300);
 }
 
-:focus-visible {
+[tabindex="0"]:focus-visible {
   outline: 0;
 }
 
